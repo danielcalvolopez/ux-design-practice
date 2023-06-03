@@ -3,3 +3,16 @@
   text-transform: uppercase;
   cursor: pointer;
 }
+
+.menu-item a {
+  position: relative;
+}
+
+.menu-item a.active::before {
+  position: absolute;
+  content: "";
+  width: 35%;
+  height: 1px;
+  border-bottom: 2px solid black;
+  bottom: -3px;
+}

@@ -1,3 +1,6 @@
 .app {
-  padding: 40px 140px;
+  padding: 35px 120px;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
 }
