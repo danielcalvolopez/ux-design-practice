@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 
 * {
   box-sizing: border-box;
@@ -22,4 +23,15 @@ body {
   font-family: "Poppins", sans-serif;
 
   --bg: #ffffff;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 52px;
+  line-height: auto;
+}
+
+ul,
+li {
+  list-style: none;
 }
