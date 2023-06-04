@@ -65,3 +65,14 @@
   display: flex;
   gap: 40px;
 }
+
+.images {
+  display: grid;
+  gap: 29px;
+  grid-template-columns: repeat(2, auto);
+  grid-template-areas: "left ." "left .";
+}
+
+.left {
+  grid-area: left;
+}

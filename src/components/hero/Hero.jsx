@@ -2,6 +2,10 @@ import classes from "./hero.module.css";
 import PrimaryButton from "../UI/PrimaryButton";
 import SecondaryButton from "../UI/SecondaryButton";
 import { ReactComponent as Confetti } from "../../images/confetti.svg";
+import ProductCard from "../products/ProductCard";
+import Image1 from "../../images/clothing1.jpg";
+import Image2 from "../../images/clothing2.jpg";
+import Image3 from "../../images/clothing3.jpg";
 
 const Hero = () => {
   return (
@@ -28,7 +32,11 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <div className={classes.images}>Images here</div>
+      <div className={classes.images}>
+        <ProductCard className={classes.left} img={Image1} />
+        <ProductCard className={classes["top-right"]} img={Image2} />
+        <ProductCard className={classes["bottom-right"]} img={Image3} />
+      </div>
     </div>
   );
 };
