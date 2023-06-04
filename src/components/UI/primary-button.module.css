@@ -2,11 +2,16 @@
   font-size: 18px;
   line-height: 158%;
   font-weight: bold;
-  background-color: #f2f0df;
+  background-color: #f1e2d1;
   border: none;
   padding: 14px 25px;
   border-radius: 19px;
   cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.primary-button:hover {
+  background-color: #e2d1bd;
 }
 
 .primary-button::first-letter {

@@ -67,6 +67,7 @@
 }
 
 .images {
+  position: relative;
   display: grid;
   gap: 29px;
   grid-template-columns: repeat(2, auto);
@@ -75,4 +76,24 @@
 
 .left {
   grid-area: left;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .images,
+  .text {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .images {
+    display: flex;
+    flex-direction: column;
+  }
 }
