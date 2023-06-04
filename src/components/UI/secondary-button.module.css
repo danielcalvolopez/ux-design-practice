@@ -1,0 +1,21 @@
+.secondary-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  cursor: pointer;
+  font-size: 16px;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
+.arrow {
+  transition: all 0.3s ease-in-out;
+}
+
+.secondary-button:hover > .arrow {
+  transform: translateX(10px);
+  transition: all 0.3s ease-in-out;
+}

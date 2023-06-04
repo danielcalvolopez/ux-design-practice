@@ -1,0 +1,67 @@
+.hero {
+  display: flex;
+  margin-top: 123px;
+  gap: 100px;
+}
+
+.images {
+  width: 50%;
+}
+
+.text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+
+.slogan {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.slogan p {
+  line-height: 158%;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.announce {
+  position: relative;
+  display: flex;
+  gap: 53px;
+  padding: 33px 40px;
+  border: 1px solid black;
+  border-radius: 19px;
+  box-shadow: 15px 9px 30px #a0a0a031;
+  margin-top: 10px;
+}
+
+.confetti {
+  position: absolute;
+  left: -5%;
+  top: -5%;
+}
+
+.announce h2 {
+  display: flex;
+  align-items: flex-start;
+  font-weight: 200;
+  font-size: 33px;
+  height: 100%;
+  line-height: 100%;
+}
+
+.announce p {
+  font-weight: 300;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.cta {
+  display: flex;
+  gap: 40px;
+}
