@@ -33,9 +33,25 @@ const Hero = () => {
         </div>
       </div>
       <div className={classes.images}>
-        <ProductCard className={classes.left} img={Image1} />
-        <ProductCard className={classes["top-right"]} img={Image2} />
-        <ProductCard className={classes["bottom-right"]} img={Image3} />
+        <ProductCard
+          productName="Fauxica Classic"
+          productDescription="Wool sweater"
+          price="59"
+          className={classes.left}
+          img={Image1}
+        />
+        <ProductCard
+          productName="Fauxica Denim"
+          productDescription="Denim jacket"
+          price="59"
+          img={Image2}
+        />
+        <ProductCard
+          productName="Fauxica Sport"
+          productDescription="Running shoe"
+          price="59"
+          img={Image3}
+        />
       </div>
     </div>
   );

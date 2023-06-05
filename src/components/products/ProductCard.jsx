@@ -1,6 +1,12 @@
 import classes from "./product-card.module.css";
 
-const ProductCard = ({ img, className }) => {
+const ProductCard = ({
+  img,
+  className,
+  productName,
+  productDescription,
+  price,
+}) => {
   return (
     <div
       style={{ backgroundImage: `url(${img})` }}
@@ -8,10 +14,10 @@ const ProductCard = ({ img, className }) => {
     >
       <div className={classes.text}>
         <div className={classes.description}>
-          <h4>Fauxica Sport</h4>
-          <p>Running shoe</p>
+          <h4>{productName}</h4>
+          <p>{productDescription}</p>
         </div>
-        <p className={classes.price}>$59</p>
+        <p className={classes.price}>${price}</p>
       </div>
     </div>
   );
